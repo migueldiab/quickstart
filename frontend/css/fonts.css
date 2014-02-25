@@ -1,0 +1,20 @@
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */
+@font-face {
+  font-family:"Romeral";
+  src:url("romeral.eot?") format("eot"),
+    url("romeral.woff") format("woff"),
+    url("romeral.ttf") format("truetype"),
+    url("romeral.svg#Romeral") format("svg");
+  font-weight:normal;
+  font-style:normal;
+}
+
+@font-face {
+  font-family: "Romeralinline";
+  font-style: normal;
+  font-weight: normal;
+  src: url("Romeralinline.ttf.woff") format("woff"),
+    url("Romeralinline.ttf.svg#Romeralinline") format("svg"),
+    url("Romeralinline.ttf.eot"),
+    url("Romeralinline.ttf.eot?#iefix") format("embedded-opentype");
+}

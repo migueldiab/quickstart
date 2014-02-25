@@ -1,18 +1,37 @@
 *.gem
 *.rbc
+
+# Ignore bundler config
 .bundle
+
 .config
 coverage
 InstalledFiles
 lib/bundler/man
 pkg
+doc/
 rdoc
 spec/reports
 test/tmp
 test/version_tmp
 tmp
+Gemfile~
+database.yml
+
+/.sass-cache/
+/.idea/
+/*.sublime*
+/*.lock
+/nbproject
 
 # YARD artifacts
 .yardoc
 _yardoc
-doc/
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+

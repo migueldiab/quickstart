@@ -1,0 +1,34 @@
+{
+  "name": "quickstart",
+  "version": "1.0.0",
+  "main": "index.html",
+  "authors": [
+    "Miguel A. Diab <migueldiab@gmail.com>"
+  ],
+  "description": "Quick Start Directory Structure",
+  "main": "index.html",
+  "keywords": [
+    "web",
+    "design",
+    "marketing",
+    "digital",
+    "network",
+    "social",
+    "presence",
+    "internet"
+  ],
+  "license": "MIT",
+  "homepage": "www.yki.uy",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ],
+  "dependencies": {
+    "jquery": "2.1.0"
+    ,"angular": "1.2.13"
+    ,"i18next": "1.7.2"
+    ,"headjs": "1.0.3"
+    ,"html5-boilerplate": "4.3.0"
+    ,"Ink": "2.2.1"
+  }
+}

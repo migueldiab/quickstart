@@ -1,0 +1,17 @@
+{
+  "app": {
+    "title": "Quick Start"
+    ,"name": "Quick Start App"
+    ,"tag": " This is the application quick start "
+  },
+  "nav": {
+    "home": "Home"
+    ,"contact": "Contact"
+    ,"page1": "Page One"
+    ,"page2": "Page Two"
+  },
+  "button": {
+    "start": "Start Here"
+    ,"stop": "Stop Here"    
+  }
+}

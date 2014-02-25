@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>  <html class="no-js lt-ie9 lt-ie8 lt-ie7" xmlns:ng="http://angularjs.org"> <![endif]-->
+<!--[if IE 7]>   <html class="no-js lt-ie9 lt-ie8" xmlns:ng="http://angularjs.org"> <![endif]-->
+<!--[if IE 8]>   <html class="no-js lt-ie9" xmlns:ng="http://angularjs.org"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" xmlns:ng="http://angularjs.org"> <!--<![endif]-->
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title data-i18n="app.title"></title>
+    <meta name="description" content="">
+    <meta name="author" content="ink, cookbook, recipes">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="shortcut icon" href="./img/ink/ink-favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="./img/ink/touch-icon.57.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./img/ink/touch-icon.72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./img/ink/touch-icon.114.png">
+    <link rel="apple-touch-startup-image" href="./img/ink/splash.320x460.png"
+        media="screen and (min-device-width: 200px) and (max-device-width: 320px) and (orientation:portrait)">
+    <link rel="apple-touch-startup-image" href="./img/ink/splash.768x1004.png"
+        media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)">
+    <link rel="apple-touch-startup-image" href="./img/ink/splash.1024x748.png"
+        media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)">
+    <link rel="stylesheet" type="text/css" href="./bower_components/ink/css/ink.css">
+    <link rel="stylesheet" type="text/css" href="./bower_components/ink/css/quick-start.css">
+    <link rel="stylesheet" type="text/css" href="./bower_components/html5-boilerplate/css/main.css">
+    <link rel="stylesheet" type="text/css" href="./bower_components/html5-boilerplate/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+  
+    <!--[if IE 7 ]>
+    <link rel="stylesheet" href="./css/ink/ink-ie7.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <![endif]-->
+    <script type="text/javascript" src="./bower_components/headjs/dist/1.0.0/head.js"></script>
+    <script type="text/javascript" src="./js/Loader.js"></script>
+  
+  </head>
+  <body>
+    <div class="main">
+      <nav class="ink-navigation ink-container">
+        <ul class="menu horizontal green flat">
+          <li><a href="#" data-i18n="app.name"></a></li>
+          <li><a href="#" data-i18n="nav.home"></a></li>
+          <!--<li><a href="#">Contacto</a></li>-->
+          <!--<li class="push-right"><a href="?lang=en">en</a></li>-->
+          <li class="push-right"><a id="langEn" href="#">en</a></li>
+          <li class="push-right"><a id="langEs" href="#">es</a></li>
+        </ul>
+      </nav>
+  
+      <div class="ink-grid">
+        <div class="column-group gutters">
+          <div class="large-40 medium-50 small-100">
+            <img src="img/logo_home.png" alt=""/>
+            <div class="ink-tabs top"> <!-- Creates a tabbed view with top nav -->
+              <ul class="tabs-nav">
+                <li><a href="" data-i18n="nav.contact"></a></li> <!-- Points to item 1 below -->
+                <!--<li><a href="#item2">Item 2</a></li> &lt;!&ndash; Points to item 2 below &ndash;&gt;-->
+              </ul>
+              <div id="item1" class="tabs-content"> <!-- Item 1 -->
+                <div class="large-60 medium-60 small-60">
+                  <p>
+                    email: <a href="emailto:info@yki.uy">info@yki.uy</a><br/>
+                    tel: (+598) 4277-3886<br/>
+                    El Tesoro, Maldonado, Uruguay<br/>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="large-60 medium-50 small-100">
+            <h1 data-i18n="app.name"></h1>
+            <p data-i18n="app.tag">
+            </p>
+            <p>
+              <button  class="ink-button green" data-i18n="button.start">
+              </button >
+              <button  class="ink-button red" data-i18n="button.stop" disabled>
+              </button >
+            </p>
+          </div>
+        </div>
+
+        <div class="column-group gutters">
+
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p class="small">
+        <br/>Miguel A. Diab © 2014 - All rights reserved
+      </p>
+      <p>
+        [ email: <a href="emailto:info@yki.uy">info@yki.uy</a>
+        | tel: (+598) 4277-3886
+        | El Tesoro, Maldonado, Uruguay ]
+      </p>
+  
+    </footer>
+  
+  </body>
+</html>
